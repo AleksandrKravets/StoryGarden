@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A540A1CC-D503-4048-8999-AEEE25D5FD51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EB98274D-928F-4A6D-B37D-C653A2E702AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{77CD0AEB-7CA5-415C-B204-B754FC0F1C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kravets.StoryGarden.API", "Kravets.StoryGarden.API\Kravets.StoryGarden.API.csproj", "{9BDFFE10-D39D-4968-AAF0-03BBE8BF1155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kravets.StoryGarden.Domain", "Kravets.StoryGarden.Domain\Kravets.StoryGarden.Domain.csproj", "{CA6EE790-5A81-41D5-BDAA-54ADA911E18F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kravets.StoryGarden.Application", "Kravets.StoryGarden.Application\Kravets.StoryGarden.Application.csproj", "{537EB23A-0B3A-4C09-9C55-DD7C2CD26279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kravets.StoryGarden.Infrastructure", "Kravets.StoryGarden.Infrastructure\Kravets.StoryGarden.Infrastructure.csproj", "{F7C2294A-2655-4FB4-B796-323368025ED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BDFFE10-D39D-4968-AAF0-03BBE8BF1155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDFFE10-D39D-4968-AAF0-03BBE8BF1155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDFFE10-D39D-4968-AAF0-03BBE8BF1155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDFFE10-D39D-4968-AAF0-03BBE8BF1155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6EE790-5A81-41D5-BDAA-54ADA911E18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6EE790-5A81-41D5-BDAA-54ADA911E18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6EE790-5A81-41D5-BDAA-54ADA911E18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6EE790-5A81-41D5-BDAA-54ADA911E18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537EB23A-0B3A-4C09-9C55-DD7C2CD26279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537EB23A-0B3A-4C09-9C55-DD7C2CD26279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537EB23A-0B3A-4C09-9C55-DD7C2CD26279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537EB23A-0B3A-4C09-9C55-DD7C2CD26279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C2294A-2655-4FB4-B796-323368025ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C2294A-2655-4FB4-B796-323368025ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C2294A-2655-4FB4-B796-323368025ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C2294A-2655-4FB4-B796-323368025ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BDFFE10-D39D-4968-AAF0-03BBE8BF1155} = {A540A1CC-D503-4048-8999-AEEE25D5FD51}
+		{CA6EE790-5A81-41D5-BDAA-54ADA911E18F} = {EB98274D-928F-4A6D-B37D-C653A2E702AA}
+		{537EB23A-0B3A-4C09-9C55-DD7C2CD26279} = {EB98274D-928F-4A6D-B37D-C653A2E702AA}
+		{F7C2294A-2655-4FB4-B796-323368025ED6} = {77CD0AEB-7CA5-415C-B204-B754FC0F1C67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {101B1826-475A-47E2-B632-BA2D015CA38F}
+	EndGlobalSection
+EndGlobal
